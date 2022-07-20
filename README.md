@@ -61,6 +61,7 @@ kubectl delete secret domain-cert
 kubectl apply -f domain-cert.yml
 ```
 ***Ответ:***
+
 ![Alt text](https://i.ibb.co/3Cd3qvH/Screenshot-8.jpg)
 
 
