@@ -27,6 +27,7 @@ kubectl get secret domain-cert
 kubectl describe secret domain-cert
 ```
 ***Ответ:***
+
 ![Alt text](https://i.ibb.co/cDq5B5p/Screenshot-2.jpg)
 
 ![Alt text](https://i.ibb.co/XDKvPvW/Screenshot-3.jpg)
@@ -48,6 +49,7 @@ kubectl get secrets -o json > secrets.json
 kubectl get secret domain-cert -o yaml > domain-cert.yml
 ```
 ***Ответ:***
+
 ![Alt text](https://i.ibb.co/F6S0tHV/Screenshot-6.jpg)
 
 ### Как удалить секрет?
@@ -55,7 +57,9 @@ kubectl get secret domain-cert -o yaml > domain-cert.yml
 kubectl delete secret domain-cert
 ```
 ***Ответ:***
+
 ![Alt text](https://i.ibb.co/z4GH8y6/Screenshot-7.jpg)
+
 ### Как загрузить секрет из файла?
 ```
 kubectl apply -f domain-cert.yml
